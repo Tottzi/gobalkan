@@ -24,7 +24,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <div className={utilStyles.headerImage}>
-              <Image priority src='/images/gobalkan-header.jpg' height={300} width={700} alt={name} />
+              <Image priority src='/images/gobalkan-header.jpg' height={200} width={500} alt={name} />
             </div>
             <div className={utilStyles.welcomeCard}>
               <Image priority src='/images/GoBalkan-colored.jpg' className={utilStyles.borderCircle} height={144} width={144} alt={name} />
