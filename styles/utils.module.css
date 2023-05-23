@@ -23,6 +23,27 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  text-align: center;
+}
+
+.headerImage {
+  position: sticky;
+  top: 0;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.welcomeCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 1rem 1rem;
 }
 
 .borderCircle {
